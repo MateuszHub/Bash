@@ -57,7 +57,7 @@ do
     wyswietl
     echo "KOLEJ GRACZA ${GRACZ}"
     read POLE
-    if [[ $POLE < 9 && $POLE -ge 0 && ${PLANSZA[$POLE]} -eq " " ]]
+    if [[ $POLE -lt 9 && $POLE -ge 0 && ${PLANSZA[$POLE]} -eq " " ]]
     then 
         zaznacz $POLE
         sprawdz_wygrana
