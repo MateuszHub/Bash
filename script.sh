@@ -1,5 +1,4 @@
 #!/bin/bash
-
 PLANSZA=(" " " " " " " " " " " " " " " " " " 9)
 KONIEC=0
 GRACZ=1
